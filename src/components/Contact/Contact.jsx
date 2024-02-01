@@ -1,4 +1,4 @@
-import style from "../Contact/Contac.module.css";
+
 
 const Contact  = () =>{
 
@@ -12,30 +12,30 @@ const Contact  = () =>{
     const github_url = "https://github.com/juaneraso";
 
     return(
-        <div className={style.container}>
+        <div >
 
       
-        <div className={style.card}>        
+        <div >        
 
-         <a href={whatsapp_url} target="_blank" rel="noopener noreferrer"><img className={style.imagen} src={whatsapp} alt="imagen_whatsapp"/></a>
+         <a href={whatsapp_url} target="_blank" rel="noopener noreferrer"><img  src={whatsapp} alt="imagen_whatsapp"/></a>
        
         </div>  
 
-        <div className={style.card}>
+        <div>
 
-          <a href={linkedin_url} target="_blank" rel="noopener noreferrer"><img className={style.imagen} src={linkedin} alt="imagen_linkedin"/></a>
+          <a href={linkedin_url} target="_blank" rel="noopener noreferrer"><img  src={linkedin} alt="imagen_linkedin"/></a>
 
         </div>  
 
-        <div className={style.card}>    
+        <div >    
         
-          <a href={github_url} target="_blank" rel="noopener noreferrer"><img className={style.imagen} src={github} alt="imagen_github"/></a>
+          <a href={github_url} target="_blank" rel="noopener noreferrer"><img  src={github} alt="imagen_github"/></a>
           
         </div>  
 
-        <div className={style.card}>         
+        <div>         
         
-          <a href={email_url} target="_blank" rel="noopener noreferrer"><img className={style.imagen} src={email} alt="imagen_email"/></a>
+          <a href={email_url} target="_blank" rel="noopener noreferrer"><img  src={email} alt="imagen_email"/></a>
 
         </div>  
              
