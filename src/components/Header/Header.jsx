@@ -12,13 +12,23 @@ const html_image = 'https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColo
 const redux_image = 'https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=white&style=for-the-badge'
 return(
    
-<div className = "flex items-center">
-  <img className="w-32 h-32 ml-3  rounded-3xl border border-blue-950 mt-3"  src={imagen1} alt="imagen de perfil"/>  
-  
+<div className = "lg:flex items-center">
+  <img className=" lg:w-32 h-32 ml-3  lg:ml-0 mb-3 lg:mb-0 rounded-3xl border border-blue-950 "  src={imagen1} alt="imagen de perfil"/>  
+   
      <div className="ml-4">
-        <h1 className="text-xl font-bold">Juan Guillermo Eraso - Fullstack Developer - Electronic Engineer</h1>
+        <h1 className="text-xl lg:text-2xl font-bold text-cyan-900 mb-2">Juan Guillermo Eraso - Fullstack Developer - Electronic Engineer</h1>
        
-          <div className="flex space-x-4  mt-2">
+          <div className="flex flex-wrap space-x-2 lg:space-x-4 mt-2">
+          <img className="w-20 h-12 rounded-md" src={javascript_image} alt="imagen javascript" />
+          <img className="w-20 h-12 rounded-md" src={react_image} alt="imagen react" />
+          <img className="w-20 h-12 rounded-md" src={node_image} alt="imagen node" />
+          <img className="w-20 h-12 rounded-md" src={express_image} alt="imagen express" />
+          <img className="w-20 h-12 rounded-md" src={posgresql_image} alt="imagen postgresql" />
+          <img className="w-20 h-12 rounded-md" src={sequelize_image} alt="imagen sequelize" />
+          <img className="w-20 h-12 rounded-md" src={redux_image} alt="imagen redux" />
+          <img className="w-20 h-12 rounded-md" src={html_image} alt="imagen html" />
+    
+{/* 
              <img className="w-24 h-16  rounded-xl" src={javascript_image} alt="imagen javascript"/>                   
              <img className="w-24 h-16  rounded-xl " src={react_image} alt="imagen react"/>                  
              <img className="w-24 h-16  rounded-xl " src={node_image} alt="imagen html"/>
@@ -26,7 +36,7 @@ return(
              <img className="w-24 h-16  rounded-xl " src={posgresql_image} alt="imagen html"/>
              <img className="w-24 h-16  rounded-xl " src={sequelize_image} alt="imagen html"/>
              <img className="w-24 h-16  rounded-xl " src={redux_image} alt="imagen html"/>
-             <img className="w-24 h-16  rounded-xl " src={html_image} alt="imagen html"/>
+             <img className="w-24 h-16  rounded-xl " src={html_image} alt="imagen html"/> */}
          
         </div>
       </div>
