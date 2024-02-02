@@ -2,6 +2,9 @@
 import React, { useEffect } from 'react';
 import 'swiper/css/bundle';
 import Swiper from 'swiper/bundle'; // Importa Swiper
+import { AtSymbolIcon } from '@heroicons/react/24/solid'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 
 const Projects = () => {
@@ -46,9 +49,18 @@ const Projects = () => {
           <img  className="w-1/2 h-fit mt-12  rounded-3xl" src={pokemon}  alt="Imagen 1" />    
           <div className="mt-4 ">
           <a href="https://vite-pokemon-two.vercel.app/" target="_blank" rel="noopener noreferrer">
-              <button className="bg-blue-500 text-white px-4 py-2 rounded mr-2">Visit</button>
+              <button className="bg-blue-500 text-white px-4 py-2 rounded mr-2">
+                <FontAwesomeIcon icon={faGithub} className="w-6 h-6 mr-2" />
+                  Visit
+                
+                </button>
+          
             </a>
-            <button className="bg-green-500 text-white px-4 py-2 rounded mt-2">Botón 2</button>
+            <button className="bg-green-500 text-white px-4 py-2 rounded mt-2">
+              <AtSymbolIcon className="w-6 h-6 mr-2" /> 
+              Botón 2
+            
+            </button>
           </div>                                   
         </div>
 
