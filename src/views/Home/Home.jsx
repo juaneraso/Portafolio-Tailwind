@@ -13,9 +13,10 @@ const Home = ()=>{
     return(
       <div >   
     
-       {/* <Header/>
-       <About/> */}
+       <Header/>
+       <About/>           
        <Projects/>
+       
        {/* <About/>
        <h1>Projects</h1> 
      

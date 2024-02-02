@@ -12,7 +12,7 @@ const html_image = 'https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColo
 const redux_image = 'https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=white&style=for-the-badge'
 return(
    
-<div className = "lg:flex justify-center">
+<div className = "lg:flex justify-center relative mt-2">
   
    
      <div className="ml-4">
