@@ -4,8 +4,8 @@ import 'swiper/css/bundle';
 import Swiper from 'swiper/bundle'; // Importa Swiper
 import { AtSymbolIcon } from '@heroicons/react/24/solid'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
-
+import { faGithub} from '@fortawesome/free-brands-svg-icons';
+import { faGlobe,faHouse } from '@fortawesome/free-solid-svg-icons';
 
 const Projects = () => {
   // useEffect para inicializar Swiper después de que el componente se monta
@@ -39,60 +39,90 @@ const Projects = () => {
   }, []); // [] como segundo argumento asegura que el useEffect se ejecute solo una vez al montar el componente
 
 
-  
+  //border border-slate-950 relative
   return (
-    <div className="swiper-container border border-slate-950 relative ">
-      <h1></h1>
+    
+    <div className="swiper-container relative mt-8 ">
+   
+       <h1 className='text-center' > Projects</h1>
 
-      <div className="swiper-wrapper  border border-slate-950 ">
-        <div className="swiper-slide   grid place-items-center mb-12">          
+
+
+      <div className="swiper-wrapper ">
+
+        <div className="swiper-slide   grid place-items-center mb-12 ">          
           <img  className="w-1/2 h-fit mt-12  rounded-3xl" src={pokemon}  alt="Imagen 1" />    
-          <div className="mt-4 ">
+          <div className="mt-4 ">            
           <a href="https://vite-pokemon-two.vercel.app/" target="_blank" rel="noopener noreferrer">
-              <button className="bg-blue-500 text-white px-4 py-2 rounded mr-2">
-                <FontAwesomeIcon icon={faGithub} className="w-6 h-6 mr-2" />
+              <button className="bg-blue-500 text-white px-4 py-2 rounded mr-2">            
                   Visit
-                
-                </button>
-          
+                  <FontAwesomeIcon icon={faGlobe} className=" w-6 h-6 ml-2" />                
+                </button>          
             </a>
-            <button className="bg-green-500 text-white px-4 py-2 rounded mt-2">
-              <AtSymbolIcon className="w-6 h-6 mr-2" /> 
-              Botón 2
-            
+            <a href="https://github.com/juaneraso/POKEMONPROYECTO" target="_blank" rel="noopener noreferrer">
+            <button className="bg-green-500 text-white px-4 py-2 rounded mt-2">                  
+                Repository
+              <FontAwesomeIcon icon={faGithub} className="w-6 h-6 mr-2 ml-2" />            
             </button>
+            </a>
           </div>                                   
         </div>
 
-        <div className="swiper-slide  grid place-items-center">          
+
+        <div className="swiper-slide  grid place-items-center mb-12">     
           <img  className="w-1/2 h-fit mt-12 rounded-3xl " src={rick}  alt="Imagen 1" />    
           <div className="mt-4">
             <a href="https://rick-and-morty-front-ivory.vercel.app/" target="_blank" rel="noopener noreferrer">
-              <button className="bg-blue-500 text-white px-4 py-2 rounded mr-2">Visit</button>
-            </a>            
-            <button className="bg-green-500 text-white px-4 py-2 rounded mt-2">Botón 2</button>
+              <button className="bg-blue-500 text-white px-4 py-2 rounded mr-2">                
+                  Visit 
+                <FontAwesomeIcon icon={faGlobe} className=" w-6 h-6 ml-2" />                
+               </button>
+            </a>         
+            <a href="https://github.com/juaneraso/rick_and_morty_mine" target="_blank" rel="noopener noreferrer">
+            <button className="bg-green-500 text-white px-4 py-2 rounded mt-2">
+                Repository
+              <FontAwesomeIcon icon={faGithub} className="w-6 h-6 mr-2 ml-2" />              
+            </button>
+            </a>    
+
           </div>          
          </div>  
      
     
-        <div className="swiper-slide  grid place-items-center">          
+        <div className="swiper-slide  grid place-items-center mb-12">          
           <img  className="w-1/2 h-fit mt-12  rounded-3xl" src={flipante}  alt="Imagen 1" />    
           <div className="mt-4">
             <a href="https://espacio-flipante-pf.vercel.app/" target="_blank" rel="noopener noreferrer">
-              <button className="bg-blue-500 text-white px-4 py-2 rounded mr-2">Visit</button>
-            </a>               
-            <button className="bg-green-500 text-white px-4 py-2 rounded mt-2">Botón 2</button>
+               <button className="bg-blue-500 text-white px-4 py-2 rounded mr-2">
+                    Visit 
+                   <FontAwesomeIcon icon={faGlobe} className=" w-6 h-6 ml-2" />
+               </button>
+            </a>    
+            <a href="https://github.com/juaneraso/PF_FRONT_ESPACIO_FLIPANTE" target="_blank" rel="noopener noreferrer">           
+               <button className="bg-green-500 text-white px-4 py-2 rounded mt-2">
+                   Repository
+                  <FontAwesomeIcon icon={faGithub} className="w-6 h-6 mr-2 ml-2" />                
+               </button>
+            </a>  
           </div>                       
         </div>
    
 
-        <div className="swiper-slide  grid place-items-center">          
+        <div className="swiper-slide  grid place-items-center mb-12">          
           <img  className="w-1/2 h-fit mt-12 rounded-3xl " src={crud}  alt="Imagen 1" />    
           <div className="mt-4">
             <a href="https://frontend-juangui.vercel.app/home" target="_blank" rel="noopener noreferrer">
-              <button className="bg-blue-500 text-white px-4 py-2 rounded mr-2">Visit</button>
+               <button className="bg-blue-500 text-white px-4 py-2 rounded mr-2">
+                      Visit 
+                   <FontAwesomeIcon icon={faGlobe} className=" w-6 h-6 ml-2" />
+               </button>
             </a>  
-             <button className="bg-green-500 text-white px-4 py-2 rounded mt-2">Botón 2</button>
+            <a href="https://github.com/juaneraso/Backend-Juangui" target="_blank" rel="noopener noreferrer">
+              <button className="bg-green-500 text-white px-4 py-2 rounded mt-2">
+                     Repository
+                  <FontAwesomeIcon icon={faGithub} className="w-6 h-6 mr-2 ml-2" />
+               </button>
+             </a>
           </div>     
         </div>
 
@@ -101,7 +131,8 @@ const Projects = () => {
       {/* Agrega la paginación del slider */}
      
       {/* Agrega la navegación del slider (flechas) */}
-      <div className="swiper-pagination"></div>
+      <div className="swiper-pagination "></div>
+   
       <div className="swiper-button-next mr-60  "></div>
       <div className="swiper-button-prev ml-60   "></div>
 
