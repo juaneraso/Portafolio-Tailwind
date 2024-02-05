@@ -12,30 +12,30 @@ const Contact  = () =>{
     const github_url = "https://github.com/juaneraso";
 
     return(
-        <div >
+        <div className='flex justify-center mt-7 bg-sky-200'>
 
-      
-        <div >        
+           
+        <div className='mr-5'>        
 
-         <a href={whatsapp_url} target="_blank" rel="noopener noreferrer"><img  src={whatsapp} alt="imagen_whatsapp"/></a>
+         <a href={whatsapp_url} target="_blank" rel="noopener noreferrer"><img className='w-24 h-24'  src={whatsapp} alt="imagen_whatsapp"/></a>
        
         </div>  
 
-        <div>
+        <div className='mr-5'>
 
-          <a href={linkedin_url} target="_blank" rel="noopener noreferrer"><img  src={linkedin} alt="imagen_linkedin"/></a>
+          <a href={linkedin_url} target="_blank" rel="noopener noreferrer"><img className='w-24 h-24' src={linkedin} alt="imagen_linkedin"/></a>
 
         </div>  
 
-        <div >    
+        <div  className='mr-5' >    
         
-          <a href={github_url} target="_blank" rel="noopener noreferrer"><img  src={github} alt="imagen_github"/></a>
+          <a href={github_url} target="_blank" rel="noopener noreferrer"><img className='w-24 h-24' src={github} alt="imagen_github"/></a>
           
         </div>  
 
-        <div>         
+        <div className='mr-5' >         
         
-          <a href={email_url} target="_blank" rel="noopener noreferrer"><img  src={email} alt="imagen_email"/></a>
+          <a href={email_url} target="_blank" rel="noopener noreferrer"><img className='w-24 h-24' src={email} alt="imagen_email"/></a>
 
         </div>  
              

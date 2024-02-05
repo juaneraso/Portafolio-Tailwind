@@ -44,7 +44,7 @@ const Projects = () => {
     
     <div className="swiper-container relative mt-8 ">
    
-       <h1 className='text-center' > Projects</h1>
+       <h1 className='text-center text-xl' > Projects</h1>
 
 
 

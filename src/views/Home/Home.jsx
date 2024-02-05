@@ -5,7 +5,7 @@ import Contact from "../../components/Contact/Contact";
 import Footer from "../../components/Footer/Footer";
 
 
-// import style from "../Home/Home.module.css";
+
 
 
 const Home = ()=>{
@@ -16,13 +16,10 @@ const Home = ()=>{
        <Header/>
        <About/>           
        <Projects/>
-       
-       {/* <About/>
-       <h1>Projects</h1> 
-     
-       <h1>Contact Me</h1> 
        <Contact/>
-       <Footer/>     */}
+       <Footer/>
+
+    
        </div>
 
      
