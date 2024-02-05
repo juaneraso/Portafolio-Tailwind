@@ -17,7 +17,7 @@ const Home = ()=>{
        <About/>           
        <Projects/>
        <Contact/>
-       <Footer/>
+    
 
     
        </div>

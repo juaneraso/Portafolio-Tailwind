@@ -12,32 +12,27 @@ const Contact  = () =>{
     const github_url = "https://github.com/juaneraso";
 
     return(
-        <div className='flex justify-center mt-7 bg-sky-200'>
+        <div className=' bg-sky-200  relative mt'>
 
+           <div className= 'flex justify-center' >
+              <a href={whatsapp_url} target="_blank" rel="noopener noreferrer"><img className='w-24 h-24 mr-4 mt-4'  src={whatsapp} alt="imagen_whatsapp"/></a>
+            
+              <a href={linkedin_url} target="_blank" rel="noopener noreferrer"><img className='w-24 h-24 mr-4 mt-4' src={linkedin} alt="imagen_linkedin"/></a>
+               
+         
+              <a href={github_url} target="_blank" rel="noopener noreferrer"><img className='w-24 h-24 mr-4 mt-4' src={github} alt="imagen_github"/></a>
            
-        <div className='mr-5'>        
+              <a href={email_url} target="_blank" rel="noopener noreferrer"><img className='w-24 h-24 mr-4 mt-4' src={email} alt="imagen_email"/></a>
 
-         <a href={whatsapp_url} target="_blank" rel="noopener noreferrer"><img className='w-24 h-24'  src={whatsapp} alt="imagen_whatsapp"/></a>
+           </div>
+        
+           
+
        
-        </div>  
-
-        <div className='mr-5'>
-
-          <a href={linkedin_url} target="_blank" rel="noopener noreferrer"><img className='w-24 h-24' src={linkedin} alt="imagen_linkedin"/></a>
-
-        </div>  
-
-        <div  className='mr-5' >    
+        <h1 className='text-center text-2xl mt-3'>Juan Guillermo - 2024 </h1>
+      
         
-          <a href={github_url} target="_blank" rel="noopener noreferrer"><img className='w-24 h-24' src={github} alt="imagen_github"/></a>
-          
-        </div>  
-
-        <div className='mr-5' >         
         
-          <a href={email_url} target="_blank" rel="noopener noreferrer"><img className='w-24 h-24' src={email} alt="imagen_email"/></a>
-
-        </div>  
              
            
      </div>
