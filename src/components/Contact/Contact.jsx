@@ -12,8 +12,12 @@ const Contact  = () =>{
     const github_url = "https://github.com/juaneraso";
 
     return(
-        <div className=' bg-sky-200  relative mt'>
-
+        <div className=' bg-sky-200 border border-sky-200'>
+        
+          <h1 className='text-center mt-2 text-2xl'>Contact</h1>
+       
+           
+ 
            <div className= 'flex justify-center' >
               <a href={whatsapp_url} target="_blank" rel="noopener noreferrer"><img className='w-24 h-24 mr-4 mt-4'  src={whatsapp} alt="imagen_whatsapp"/></a>
             
