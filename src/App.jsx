@@ -1,5 +1,5 @@
-import Home from "./views/Home/Home"
-
+import Home from "./views/Home/Home";
+import './styles/scrollbar.css';
 
 function App() {
 
