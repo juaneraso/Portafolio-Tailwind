@@ -4,7 +4,7 @@ const About = () =>{
 
 
  return (
-    <div className = 'grid gap-4 grid-cols-2 relative mt-6 ml-40'>
+    <div className = 'grid gap-4 grid-cols-2 relative mt-16 ml-40'>
     
       <div>
       <p className ='text-cyan-50  text-3xl text-center'>Welcome to my portfolio!</p>
@@ -19,8 +19,7 @@ const About = () =>{
 
       <div>
       <img className=" w-56 h-64 rounded-3xl mt-2 "  src={imagen1} alt="imagen de perfil"/> 
-      </div>
-     
+      </div>    
        
 
     </div>

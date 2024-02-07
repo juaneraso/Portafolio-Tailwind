@@ -31,7 +31,7 @@ const Contact  = () =>{
            
 
        
-        <h1 className='text-center text-2xl mt-3 text-white'>Juan Guillermo - 2024 </h1>
+        <h1 className='text-center text-2xl mt-3 mb-4 text-white'>Juan Guillermo - 2024 </h1>
       
         
         

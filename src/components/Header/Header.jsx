@@ -17,7 +17,7 @@ const tailWind = 'https://img.shields.io/badge/Tailwind CSS-38B2AC?logo=tailwind
 
 return(
     
-<div className = "mt-2 flex flex-wrap justify-center ">
+<div className = 'mt-6 flex flex-wrap justify-center '>
   
    
         <h1 className="text-xl lg:text-3xl font-bold text-cyan-50 mb-4 text-center  ">Juan Guillermo Eraso - Fullstack Developer - Electronic Engineer</h1>
@@ -28,7 +28,7 @@ return(
            border border-amber-300
           */}
           
-          <div className="grid gap-6 grid-cols-6 ml-4  ">   
+          <div className="grid gap-6 grid-cols-6 ml-4  mt-6">   
                     
           <img className="w-32 h-12 rounded-md" src={javascript_image} alt="imagen javascript" />                     
           <img className="w-32 h-12 rounded-md" src={react_image} alt="imagen react" />           
