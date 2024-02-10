@@ -14,10 +14,25 @@ const Projects = () => {
   const flipante = "https://shorturl.at/psuAM";
   const rick = "https://shorturl.at/diyO5";
   const crud = "https://shorturl.at/zFY35";
+ 
+  
+  const back = import.meta.env.VITE_APP_BACK;
+   
 
+  useEffect(() => {
+  
+    axios.put(`${back}/increase`)
+    .then(response => {
+      // La solicitud se realizó con éxito
+      console.log("Datos actualizados:", response.data);
+    })
+    .catch(error => {
+      // Ocurrió un error al hacer la solicitud
+      console.error("Error al actualizar los datos:", error);
+    });
 
   
-  useEffect(() => {
+
     // Inicializa Swiper
     const mySwiper = new Swiper('.swiper-container', {
       // Configuración adicional aquí
