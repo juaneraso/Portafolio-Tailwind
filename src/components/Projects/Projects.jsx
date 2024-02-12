@@ -25,7 +25,7 @@ const Projects = () => {
     axios.put(`${back}/count/increase`)
     .then(response => {
       // La solicitud se realizó con éxito
-      console.log("Datos actualizados:", response.data);
+      // console.log("Datos actualizados:", response.data);
     })
     .catch(error => {
       // Ocurrió un error al hacer la solicitud
