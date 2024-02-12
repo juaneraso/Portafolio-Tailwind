@@ -22,7 +22,7 @@ const Projects = () => {
 
   useEffect(() => {
   
-    axios.put(`${back}/increase`)
+    axios.put(`${back}/count/increase`)
     .then(response => {
       // La solicitud se realizó con éxito
       console.log("Datos actualizados:", response.data);
@@ -32,7 +32,6 @@ const Projects = () => {
       console.error("Error al actualizar los datos:", error);
     });
 
-     console.log("Hola estoy en projects");
 
     // Inicializa Swiper
     const mySwiper = new Swiper('.swiper-container', {
