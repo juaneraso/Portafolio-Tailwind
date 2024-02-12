@@ -8,13 +8,25 @@ import { faGithub} from '@fortawesome/free-brands-svg-icons';
 import { faGlobe,faHouse } from '@fortawesome/free-solid-svg-icons';
 import axios from "axios"; 
 
+import Crud from '../../assets/Crud.jpg';
+import Flipante from '../../assets/Flipante.jpg';
+import Rick from '../../assets/Rick.jpg';
+import Pokemon from '../../assets/Pokemon.jpg';
+
+
+
 const Projects = () => {
   // useEffect para inicializar Swiper después de que el componente se monta
    
-  const pokemon = "https://shorturl.at/kzACE";
-  const flipante = "https://shorturl.at/psuAM";
-  const rick = "https://shorturl.at/diyO5";
-  const crud = "https://shorturl.at/zFY35";
+  // const pokemon = "https://shorturl.at/kzACE";
+  // const flipante = "https://shorturl.at/psuAM";
+  // const rick = "https://shorturl.at/diyO5";
+  // const crud = "https://shorturl.at/zFY35";
+
+  const pokemon = Pokemon;
+  const flipante = Flipante;
+  const rick = Rick;
+  const crud = Crud;
  
   
   const back = import.meta.env.VITE_APP_BACK;
