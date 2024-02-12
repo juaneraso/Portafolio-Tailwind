@@ -1,9 +1,11 @@
 
+import JavaScript from '../../assets/JavaScript.svg';
 
 const Header = () =>{
 
+// const javascript_image = 'https://shorturl.at/eghp9';
+const javascript_image = JavaScript;
 const react_image = 'https://shorturl.at/hnzC8';
-const javascript_image = 'https://shorturl.at/eghp9';
 const node_image= 'https://shorturl.at/kprY4';
 const express_image = 'https://shorturl.at/lwJY3';
 const posgresql_image = 'https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white&style=for-the-badge';
