@@ -32,7 +32,7 @@ const Projects = () => {
       console.error("Error al actualizar los datos:", error);
     });
 
-  
+     console.log("Hola estoy en projects");
 
     // Inicializa Swiper
     const mySwiper = new Swiper('.swiper-container', {
