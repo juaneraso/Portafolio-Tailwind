@@ -1,21 +1,47 @@
 
 import JavaScript from '../../assets/JavaScript.svg';
+import Express from '../../assets/Express.svg';
+import Html from '../../assets/Html.svg';
+import Mongodb from '../../assets/mongodb.svg';
+import Nestjs  from '../../assets/Nestjs.svg';
+import Node from '../../assets/Node.svg';
+import Postgresql from '../../assets/Postgresql.svg';
+import React2 from '../../assets/React2.svg';
+import Reactnative from '../../assets/Reactnative.svg';
+import Redux from '../../assets/Redux.svg';
+import Sequelize from '../../assets/Sequelize.svg';
+import Tailwind from '../../assets/Tailwind.svg';
+
+
 
 const Header = () =>{
 
 // const javascript_image = 'https://shorturl.at/eghp9';
+// const react_image = 'https://shorturl.at/hnzC8';
+// const node_image= 'https://shorturl.at/kprY4';
+// const express_image = 'https://shorturl.at/lwJY3';
+// const posgresql_image = 'https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white&style=for-the-badge';
+// const sequelize_image = 'https://img.shields.io/badge/Sequelize-52B0E7?logo=sequelize&logoColor=white&style=for-the-badge';
+// const html_image = 'https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white&style=for-the-badge';
+// const redux_image = 'https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=white&style=for-the-badge';
+// const mongoDB = 'https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white&style=for-the-badge';
+// const nestJS = 'https://img.shields.io/badge/NestJS-E0234E?logo=nestjs&logoColor=white&style=for-the-badge';
+// const reactNative = 'https://img.shields.io/badge/React Native-61DAFB?logo=react&logoColor=white&style=for-the-badge';
+// const tailWind = 'https://img.shields.io/badge/Tailwind CSS-38B2AC?logo=tailwind-css&logoColor=white&style=for-the-badge';
+
 const javascript_image = JavaScript;
-const react_image = 'https://shorturl.at/hnzC8';
-const node_image= 'https://shorturl.at/kprY4';
-const express_image = 'https://shorturl.at/lwJY3';
-const posgresql_image = 'https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white&style=for-the-badge';
-const sequelize_image = 'https://img.shields.io/badge/Sequelize-52B0E7?logo=sequelize&logoColor=white&style=for-the-badge';
-const html_image = 'https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white&style=for-the-badge';
-const redux_image = 'https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=white&style=for-the-badge';
-const mongoDB = 'https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white&style=for-the-badge';
-const nestJS = 'https://img.shields.io/badge/NestJS-E0234E?logo=nestjs&logoColor=white&style=for-the-badge';
-const reactNative = 'https://img.shields.io/badge/React Native-61DAFB?logo=react&logoColor=white&style=for-the-badge';
-const tailWind = 'https://img.shields.io/badge/Tailwind CSS-38B2AC?logo=tailwind-css&logoColor=white&style=for-the-badge';
+const react_image = React2;
+const node_image= Node;
+const express_image =  Express;
+const posgresql_image = Postgresql ;
+const sequelize_image = Sequelize ;
+const html_image = Html;
+const redux_image = Redux;
+const mongoDB = Mongodb;
+const nestJS =Nestjs ;
+const reactNative = Reactnative;
+const tailWind = Tailwind;
+
 
 return(
     
