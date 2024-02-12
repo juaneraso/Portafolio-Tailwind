@@ -6,6 +6,7 @@ import { AtSymbolIcon } from '@heroicons/react/24/solid'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub} from '@fortawesome/free-brands-svg-icons';
 import { faGlobe,faHouse } from '@fortawesome/free-solid-svg-icons';
+import axios from "axios"; 
 
 const Projects = () => {
   // useEffect para inicializar Swiper después de que el componente se monta
