@@ -1,7 +1,9 @@
 
-const About = () =>{
-  const imagen1 = 'https://shorturl.at/tuzG0';
+import Juan from '../../assets/Juan.jpg'
 
+const About = () =>{
+  // const imagen1 = 'https://shorturl.at/tuzG0';
+   const imagen1  = Juan;
 
  return (
     <div className = 'grid gap-4 grid-cols-2 relative mt-16 ml-40'>
