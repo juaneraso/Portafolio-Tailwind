@@ -13,6 +13,6 @@
   
   ::-webkit-scrollbar-track {
     background-color: #241f1f; /* Color del "rastro" de la barra */
-    border-radius: 5px; /* Radio de borde del "rastro" */
+    border-radius: 0px; /* Radio de borde del "rastro" */
   }
   

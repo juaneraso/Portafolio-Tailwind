@@ -42,21 +42,27 @@ const nestJS =Nestjs ;
 const reactNative = Reactnative;
 const tailWind = Tailwind;
 
+{/* <div className = 'mt-6 flex flex-wrap justify-center '>
+
+   
+<div className="grid gap-6 grid-cols-6 ml-4  mt-6">  */}
 
 return(
     
-<div className = 'mt-6 flex flex-wrap justify-center '>
-  
+
+
+<div className = 'mt-6 flex flex-col items-center '>
+
    
-        <h1 className="text-xl lg:text-3xl font-bold text-cyan-50 mb-4 text-center  ">Juan Guillermo Eraso - Fullstack Developer - Electronic Engineer</h1>
+        <h1 className=" font-Protest-Revolution  text-4xl font-bold text-cyan-50 mb-4 mt-3 text-center  ">Juan Guillermo Eraso - Fullstack Developer - Electronic Engineer</h1>
        
           {/* <div className="flex flex-wrap  space-x-6 space-y-4 border border-amber-300"> */}
           {/* grid grid-flow-row-dense grid-cols-3 grid-rows-3
           
            border border-amber-300
           */}
-          
-          <div className="grid gap-6 grid-cols-6 ml-4  mt-6">   
+         
+          <div  className="grid gap-6 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 mt-6">   
                     
           <img className="w-32 h-12 rounded-md" src={javascript_image} alt="imagen javascript" />                     
           <img className="w-32 h-12 rounded-md" src={react_image} alt="imagen react" />           

@@ -6,3 +6,17 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+/* Agregamos la fuente de google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Protest+Revolution&display=swap');
+
+/* Aplica la fuente a los elementos deseados */
+.font-Protest-Revolution {
+  font-family: 'Protest Revolution', sans-serif;
+}
+
+.font-Changa {
+  font-family: 'Changa', sans-serif;
+}
+

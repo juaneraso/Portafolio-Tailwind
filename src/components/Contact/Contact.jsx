@@ -14,7 +14,7 @@ const Contact  = () =>{
     return(
         <div className='bg-blue-950 border border-blue-950'>
         
-          <h1 className='text-center mt-2 text-2xl text-white '>Contact</h1>   
+          <h1 className='  text-center mt-2 text-4xl text-white font-Changa mb-3 '>Contact</h1>   
             
            <div className= 'flex justify-center' >
               <a href={whatsapp_url} target="_blank" rel="noopener noreferrer"><img className='w-24 h-24 mr-4 mt-4'  src={whatsapp} alt="imagen_whatsapp"/></a>
@@ -31,7 +31,7 @@ const Contact  = () =>{
            
 
        
-        <h1 className='text-center text-2xl mt-3 mb-4 text-white'>Juan Guillermo - 2024 </h1>
+        <h1 className='font-Protest-Revolution text-center text-3xl mt-6 mb-4 text-white'>Juan Guillermo - 2024 </h1>
       
         
         

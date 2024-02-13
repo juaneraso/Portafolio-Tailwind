@@ -69,9 +69,9 @@ const Projects = () => {
   //border border-slate-950 relative
   return (
     
-    <div className="swiper-container relative mt-8 ">
+    <div className="swiper-container relative mt-14 ">
    
-       <h1 className='text-cyan-50  text-center text-3xl' > Projects</h1>
+       <h1 className='text-cyan-50  text-center text-4xl font-Protest-Revolution' > Projects</h1>
 
       <div className="swiper-wrapper ">
 
@@ -79,7 +79,7 @@ const Projects = () => {
           <img  className="w-1/2 h-fit mt-12  rounded-3xl" src={pokemon}  alt="Imagen 1" />    
           <div className="mt-4 ">            
           <a href="https://vite-pokemon-two.vercel.app/" target="_blank" rel="noopener noreferrer">
-              <button className="  hover:bg-sky-700 border border-sky-700  text-white px-4 py-2 rounded mr-12">            
+              <button className="  hover:bg-sky-700 border border-sky-700  text-white px-6  py-2 rounded mr-12">            
                   Visit
                   <FontAwesomeIcon icon={faGlobe} className=" w-6 h-6 ml-2" />                
                 </button>          
@@ -98,7 +98,7 @@ const Projects = () => {
           <img  className="w-1/2 h-fit mt-12 rounded-3xl " src={rick}  alt="Imagen 1" />    
           <div className="mt-4">
             <a href="https://rick-and-morty-front-ivory.vercel.app/" target="_blank" rel="noopener noreferrer">
-              <button className="hover:bg-sky-700 border border-sky-700  text-white px-4 py-2 rounded mr-12">                
+              <button className="hover:bg-sky-700 border border-sky-700  text-white px-6 py-2 rounded mr-12">                
                   Visit 
                 <FontAwesomeIcon icon={faGlobe} className=" w-6 h-6 ml-2" />                
                </button>
@@ -118,7 +118,7 @@ const Projects = () => {
           <img  className="w-1/2 h-fit mt-12  rounded-3xl" src={flipante}  alt="Imagen 1" />    
           <div className="mt-4">
             <a href="https://espacio-flipante-pf.vercel.app/" target="_blank" rel="noopener noreferrer">
-               <button className="hover:bg-sky-700 border border-sky-700  text-white px-4 py-2 rounded mr-12">
+               <button className="hover:bg-sky-700 border border-sky-700  text-white px-6 py-2 rounded mr-12">
                     Visit 
                    <FontAwesomeIcon icon={faGlobe} className=" w-6 h-6 ml-2" />
                </button>
@@ -138,7 +138,7 @@ const Projects = () => {
 
           <div className="mt-4 ">
             <a href="https://frontend-juangui.vercel.app/home" target="_blank" rel="noopener noreferrer">
-               <button className="hover:bg-sky-700 border border-sky-700  text-white px-4 py-2 rounded mr-12">
+               <button className="hover:bg-sky-700 border border-sky-700  text-white px-6 py-2 rounded mr-12">
                       Visit 
                    <FontAwesomeIcon icon={faGlobe} className=" w-6 h-6 ml-2" />
                </button>
