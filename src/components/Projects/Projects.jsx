@@ -289,7 +289,7 @@ const Projects = () => {
           />
           <div className="mt-4">
             <a
-              href="https://frontend-juangui-kz8g-9grta46uh-juan-guillermos-projects.vercel.app/"
+              href="https://frontend-juangui-kz8g.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
