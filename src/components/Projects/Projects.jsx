@@ -284,6 +284,7 @@ const Projects = () => {
         <div className="swiper-slide  grid place-items-center mb-12">
           <img
             className="w-1/2 h-fit mt-12  rounded-3xl"
+            
             src={flipante}
             alt="Imagen 1"
           />
