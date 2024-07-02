@@ -284,13 +284,13 @@ const Projects = () => {
         <div className="swiper-slide  grid place-items-center mb-12">
           <img
             className="w-1/2 h-fit mt-12  rounded-3xl"
-            
+
             src={flipante}
             alt="Imagen 1"
           />
           <div className="mt-4">
             <a
-              href="https://frontend-juangui-kz8g.vercel.app/"
+              href="https://vite-flipante.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
