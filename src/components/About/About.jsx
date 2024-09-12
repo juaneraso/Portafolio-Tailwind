@@ -48,7 +48,13 @@ const About = () => {
          </div>
 
          <div>
-            <img className="w-full h-auto rounded-3xl mt-2 sm:w-56 sm:h-64" src={imagen1} alt="imagen de perfil" />
+            {/* <img className="w-full h-auto rounded-3xl mt-2 sm:w-56 sm:h-64" src={imagen1} alt="imagen de perfil" /> */}
+            <img
+              className="w-full h-auto rounded-3xl mt-2 sm:w-56 sm:h-64"
+              src={imagen1}
+             alt="imagen de perfil"
+             style={{ filter: 'drop-shadow(15px 5px 5px rgb(27, 168, 178))' }}
+            />
          </div>
       </div>
    );
